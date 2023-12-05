@@ -34,3 +34,29 @@ body {
         font-size: 22px;
     }
 }
+.contentText {
+	color: #333;
+}
+.container .content p strong {
+	color: #000;
+}
+.container .content p {
+	color: #000;
+	text-align: left;
+}
+.container .content p {
+}
+.container .content blubld   {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #069;
+}
+.content p strong red {
+font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #F20C0C;	
+}
+	
+th, td {
+  padding: 15px;
+}
