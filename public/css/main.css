@@ -95,7 +95,6 @@ background-position: center;
 .main {
 	display:flex;
 	flex-flow: column;
-  	height: 100%;
 	background:#F3F3F3;
 	padding:50px;
 	font-size:1em;
@@ -137,7 +136,7 @@ background-position: center;
   	width: 100%;
 	font-size:.8em;
 }
-
+/* media query to keep the nav from breaking */
 @media (max-width: 1200px) {
   
   .nav {
