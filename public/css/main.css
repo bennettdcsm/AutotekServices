@@ -81,7 +81,7 @@ a[href^="tel:"]:before {
 
 .hero {
   background:#000;
-  height:460px; 
+  height:500px; 
   margin:0;
   background-image: url('https://www.magicflutes.org/wp-content/uploads/2023/12/banner.png');
   background-repeat:no-repeat;
