@@ -1,5 +1,4 @@
 @charset "utf-8";
-/* CSS Document */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -38,49 +37,64 @@ table {
 }
 html, body {font-family:"Helvetica Neue", Helvetica, Arial, "sans-serif";font-size: 18px;}
 h1, h2, h3, h4, h5, h6 {font-family:"Helvetica Neue", Helvetica, Arial, "sans-serif";}
+h2 {font-size:36px;font-weight:100;padding-bottom:40px;}
 /*START CUSTOM STYLES*/
 .nav {
-  background: #3D7690;
-  height:80px;
-  padding:20px;
+  background: #000;
+  padding:30px 20px;
   margin:0;
   color:#fff;
   text-align:right;  
 }
 
 .nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  padding-right:60px;
+  overflow: visible;
 }
 
 .nav ul li {
-  
   display:inline-block;
 }
+.nav .logo, .nav .phone-number {color:#fff;float:left;text-align:left;line-height:1.6em;font-size:1em;}
+.nav .logo img {width:220px;position:relative; top:-20px;}
+.nav .phone-number a, .nav .phone-link a[href^="tel:"] {color:#fff;text-decoration:none;font-size:1em;}
+a[href^="tel:"]:before {
+  content: "\1f4de";
+  margin-left: 0.3em;
+  margin-right: 0.2em;
+}
+.nav .contact-link {font-weight:700;}
 
 .nav ul li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 20px;
   text-decoration: none;
 }
 
 /* Change color on hover */
 .nav ul li a:hover {
-  background-color: #111;
+  background-color: #666;
+  border-radius:8px;
 }
 
 .hero {
-  background:#666;
-  height:430px; 
+  background:#000;
+  height:500px; 
   margin:0;
-  background-image: url('http://placekitten.com/2000/460');
+  background-image: url('https://www.magicflutes.org/wp-content/uploads/2023/12/banner.png');
   background-repeat:no-repeat;
+    background-size: cover;
+  
 }
+
+.inner-hero {/*signup form*/}
 
 .main {
 	display:flex;
@@ -91,7 +105,6 @@ h1, h2, h3, h4, h5, h6 {font-family:"Helvetica Neue", Helvetica, Arial, "sans-se
 	font-size:1em;
  
 }
-.main h2 {font-size:48px;font-weight:100;padding-bottom:40px;}
 
 .main-container {
   max-width:1440px;
@@ -101,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {font-family:"Helvetica Neue", Helvetica, Arial, "sans-se
   display: grid;
 	column-gap:10px;
 	row-gap:10px;
-	padding-bottom:40px;
+	padding-bottom:36px;
   
 }
 .wrapper div.one {width:70%;}
@@ -109,8 +122,16 @@ h1, h2, h3, h4, h5, h6 {font-family:"Helvetica Neue", Helvetica, Arial, "sans-se
 .wrapper div.three {width:45%;}
 .wrapper div.four {width:45%;}
 
+.clients {
+  background:#eee; 
+  padding:50px;
+  display:block;
+  position:relative; 
+  bottom:60px;
+}
+
 .footer {
-	background: #3D7690;
+	background: #000;
 	text-align:center;
 	color:#fff;
 	padding:20px;
@@ -121,5 +142,29 @@ h1, h2, h3, h4, h5, h6 {font-family:"Helvetica Neue", Helvetica, Arial, "sans-se
 	font-size:.8em;
 }
 
+@media (max-width: 1200px) {
+  
+  .nav {
+  padding:30px auto;
+  margin:0;
+  text-align:center;  
+}
 
+  .nav ul {
+  clear:both;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin:0;
+  }
+  .nav ul li {
+    border-top:1px solid #666;
+  }
+}
 
+@media (max-width: 460px) {
+ .nav .logo {float:none;text-align:center;} 
+ .nav .phone-number {float:none;text-align:center;line-height:1.6em;font-size:1em;padding-bottom:20px;}
+.nav .logo img {width:220px;top:0px;text-align:center;}
+
+}
