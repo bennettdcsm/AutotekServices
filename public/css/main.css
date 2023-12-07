@@ -86,7 +86,7 @@ a[href^="tel:"]:before {
   background-image: url("../images/kate-ibragimova-bEGTsOCnHro-unsplash.jpg");
   background-repeat:no-repeat;
 background-size: cover;
-background-position: center;
+background-position: top;
   
 }
 
