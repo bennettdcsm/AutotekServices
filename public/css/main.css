@@ -80,7 +80,7 @@ a[href^="tel:"]:before {
 }
 
 .hero {
-  background:#000;
+  background:#999;
   height:500px; 
   margin:0;
   background-image: url('images/kate-ibragimova-bEGTsOCnHro-unsplash.jpg');
