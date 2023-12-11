@@ -181,10 +181,6 @@ input[type=text]:focus {
   outline: none;
 }
 
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
 
 /* Set a style for all buttons */
 .container button {
@@ -202,16 +198,20 @@ hr {
   opacity:1;
 }
 
-/* Float cancel and signup buttons and add an equal width */
+/* Float signup button */
 .signupbtn {
-  float: center;
+  float: none;
   width: 100%;
 }
 
 /* Add padding to container elements */
 .container {
-  padding: 16px;
+  padding: 30px;
   max-width:400px;
+height:100%;
+background:#3692C1;
+opacity: 0.4;
+color:#fff;
 }
 
 /* Clear floats */
