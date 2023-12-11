@@ -187,7 +187,7 @@ hr {
 }
 
 /* Set a style for all buttons */
-button {
+.container button {
   background-color: #3692C1;
   color: white;
   padding: 14px 20px;
@@ -198,7 +198,7 @@ button {
   opacity: 0.9;
 }
 
-button:hover {
+.container button:hover {
   opacity:1;
 }
 
