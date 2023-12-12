@@ -78,10 +78,7 @@ a[href^="tel:"]:before {
   background-color: #666;
   border-radius:8px;
 }
-.overlay {
-	background:linear-gradient(to right, rgba(54,146,193,0), rgba(54,146,193,1));	
-	
-}
+
 .hero {
   	background-image:url(../images/kate-ibragimova-bEGTsOCnHro-unsplash.jpg);
   	height:450px; 
@@ -208,24 +205,23 @@ input[type=text]:focus {
 /* Add padding to container elements */
 .container {
   padding: 30px 50px 0 0;
-margin:0;
+  margin:0;
   max-width:400px;
 height:100%;
 color:#fff;
 float:right;
-	background:linear-gradient(to right, rgba(54,146,193,0), rgba(54,146,193,1));
-  background-blend-mode: multiply;
+background:linear-gradient(to right, rgba(54,146,193,0), rgba(54,146,193,1));
+background-blend-mode: multiply;
 }
 .container h2 {
 	font-size:36px;
-	padding:0 auto;
-	margin-bottom:10px;
+	margin-bottom:0;
 	text-align:center;	
 }
 
 .container h3 {
 	font-size:27px;
-	padding:10px auto;
+	margin-bottom:0;
 	text-align:center;
 }
 /* Clear floats */
