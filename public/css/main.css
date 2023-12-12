@@ -83,11 +83,12 @@ a[href^="tel:"]:before {
 	
 }
 .hero {
-  	background: url(../images/kate-ibragimova-bEGTsOCnHro-unsplash.jpg) top/cover;
+  	background-image:url(../images/kate-ibragimova-bEGTsOCnHro-unsplash.jpg);
   	height:450px; 
  	margin:0;
-	display: grid;
-  place-items:right;
+	background-position: top; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
  
 	
   	
