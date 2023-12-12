@@ -80,22 +80,18 @@ a[href^="tel:"]:before {
 }
 
 .hero {
-  background:#999;
-  height:450px; 
-  margin:0;
-  background-image: url("../images/kate-ibragimova-bEGTsOCnHro-unsplash.jpg");
-  background-repeat:no-repeat;
-background-size: cover;
-background-position: top;
-	background-image: linear-gradient(to right, rgba(54,146,193,0), rgba(54,146,193,1));
-  
+  	background:#999;
+  	height:450px; 
+ 	margin:0;
+  	background-image:
+    	linear-gradientlinear-gradient(to right, rgba(54,146,193,0), rgba(54,146,193,1)), url("../images/kate-ibragimova-bEGTsOCnHro-unsplash.jpg");
+  	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: top;
+	background-image: linear-gradient(to right, rgba(54,146,193,0), rgba(54,146,193,1)); 
 }
 
-.inner-hero {
-	padding:0;
-	margin:0; 
-	background: linear-gradient(to right, rgba(54,146,193,0), rgba(54,146,193,1));
-}
+
 .main {
 	display:flex;
 	flex-flow: column;
