@@ -87,13 +87,14 @@ a[href^="tel:"]:before {
   background-repeat:no-repeat;
 background-size: cover;
 background-position: top;
+	background-image: linear-gradient(to right, rgba(54,146,193,0), rgba(54,146,193,1));
   
 }
 
 .inner-hero {
 	padding:0;
 	margin:0; 
-	background: linear-gradient(to right, rgba(54,146,193,0), rgba(255,0,0,1));
+	background: linear-gradient(to right, rgba(54,146,193,0), rgba(54,146,193,1));
 }
 .main {
 	display:flex;
