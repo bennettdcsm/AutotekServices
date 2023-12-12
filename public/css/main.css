@@ -81,7 +81,7 @@ a[href^="tel:"]:before {
 
 .hero {
   background:#999;
-  height:500px; 
+  height:400px; 
   margin:0;
   background-image: url("../images/kate-ibragimova-bEGTsOCnHro-unsplash.jpg");
   background-repeat:no-repeat;
@@ -217,7 +217,17 @@ height:100%;
 color:#fff;
 float:right;
 }
+.container h2 {
+	font-size:36px;
+	padding:0px auto 20px;
+	text-align:center;	
+}
 
+.container h3 {
+	font-size:27px;
+	padding:10px auto;
+	text-align:center;
+}
 /* Clear floats */
 .clearfix::after {
   content: "";
