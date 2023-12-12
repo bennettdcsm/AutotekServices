@@ -81,7 +81,7 @@ a[href^="tel:"]:before {
 
 .hero {
   background:#999;
-  height:400px; 
+  height:450px; 
   margin:0;
   background-image: url("../images/kate-ibragimova-bEGTsOCnHro-unsplash.jpg");
   background-repeat:no-repeat;
@@ -170,13 +170,14 @@ background-position: top;
 * {box-sizing: border-box}
 
 /* Full-width input fields */
-input[type=text], input[type=password] {
+input[type=text], input[type=email] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
   background: #f1f1f1;
+	  border-radius:8px;
 }
 
 input[type=text]:focus {
@@ -192,6 +193,7 @@ input[type=text]:focus {
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
+  border-radius:8px;
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
@@ -213,13 +215,12 @@ input[type=text]:focus {
 margin:0;
   max-width:400px;
 height:100%;
-
 color:#fff;
 float:right;
 }
 .container h2 {
 	font-size:36px;
-	padding:0px auto 20px;
+	padding:0 auto;
 	text-align:center;	
 }
 
