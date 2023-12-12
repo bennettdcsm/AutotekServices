@@ -211,18 +211,22 @@ height:100%;
 color:#fff;
 float:right;
 background:linear-gradient(to right, rgba(54,146,193,0), rgba(54,146,193,1));
+background:linear-gradient(to right, rgba(37,102,135,0), rgba(37,102,135,1));
+	
 background-blend-mode: multiply;
 }
 .container h2 {
 	font-size:36px;
 	margin-bottom:0;
-	text-align:center;	
+	text-align:center;
+	padding:0;
 }
 
 .container h3 {
 	font-size:27px;
 	margin-bottom:0;
 	text-align:center;
+	padding:0;
 }
 /* Clear floats */
 .clearfix::after {
