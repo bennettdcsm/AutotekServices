@@ -205,7 +205,7 @@ input[type=text]:focus {
 
 /* Add padding to container elements */
 .container {
-  padding: 50px 50px 0 0;
+  padding: 60px 50px 0 0;
   margin:0;
   max-width:400px;
 height:100%;
@@ -227,7 +227,7 @@ background-blend-mode: multiply;
 	margin-bottom:0;
 	text-align:center;
 	padding:0;
-	padding-bottom:10px;
+	padding-bottom:0px;
 }
 /* Clear floats */
 .clearfix::after {
