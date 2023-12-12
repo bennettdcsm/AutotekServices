@@ -86,8 +86,7 @@ a[href^="tel:"]:before {
 	background-position: top; /* Center the image */
   	background-repeat: no-repeat; /* Do not repeat the image */
   	background-size: cover; /* Resize the background image to cover the entire container */ 
-	display:flex;
-	align-items:center;
+	
 }
 
 
@@ -212,8 +211,7 @@ input[type=text]:focus {
 height:100%;
 color:#fff;
 float:right;
-background:linear-gradient(to right, rgba(37,102,135,0), rgba(37,102,135,1));
-	
+background:linear-gradient(to right, rgba(37,102,135,0), rgba(37,102,135,1));	
 background-blend-mode: multiply;
 }
 .container h2 {
