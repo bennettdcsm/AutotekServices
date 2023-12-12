@@ -87,8 +87,8 @@ a[href^="tel:"]:before {
   	height:450px; 
  	margin:0;
 	background-position: top; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */ 	
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover; /* Resize the background image to cover the entire container */ 	
 }
 
 
@@ -98,7 +98,6 @@ a[href^="tel:"]:before {
 	background:#F3F3F3;
 	padding:50px;54,146,193,0
 	font-size:1em;
- 
 }
 
 .main-container {
@@ -174,7 +173,7 @@ input[type=text], input[type=email] {
   display: inline-block;
   border: none;
   background: #f1f1f1;
-	  border-radius:8px;
+border-radius:8px;
 }
 
 input[type=text]:focus {
@@ -220,6 +219,7 @@ float:right;
 .container h2 {
 	font-size:36px;
 	padding:0 auto;
+	margin-bottom:10px;
 	text-align:center;	
 }
 
