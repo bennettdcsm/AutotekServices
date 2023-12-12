@@ -79,7 +79,7 @@ a[href^="tel:"]:before {
   border-radius:8px;
 }
 .overlay {
-	background-image:linear-gradient(to right, rgba(54,146,193,0), rgba(54,146,193,1));	
+	background:linear-gradient(to right, rgba(54,146,193,0), rgba(54,146,193,1));	
 	
 }
 .hero {
@@ -88,10 +88,7 @@ a[href^="tel:"]:before {
  	margin:0;
 	background-position: top; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
- 
-	
-  	
+  background-size: cover; /* Resize the background image to cover the entire container */ 	
 }
 
 
