@@ -90,13 +90,16 @@ background-position: top;
   
 }
 
-.inner-hero {/*signup form*/}
-
+.inner-hero {
+	padding:0;
+	margin:0; 
+	background: linear-gradient(to right, rgba(54,146,193,0), rgba(255,0,0,1));
+}
 .main {
 	display:flex;
 	flex-flow: column;
 	background:#F3F3F3;
-	padding:50px;
+	padding:50px;54,146,193,0
 	font-size:1em;
  
 }
@@ -206,10 +209,11 @@ input[type=text]:focus {
 
 /* Add padding to container elements */
 .container {
-  padding: 30px;
+  padding: 30px 50px 0 0;
+margin:0;
   max-width:400px;
 height:100%;
-background:#666;
+
 color:#fff;
 float:right;
 }
