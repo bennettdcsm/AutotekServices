@@ -85,7 +85,9 @@ a[href^="tel:"]:before {
  	margin:0;
 	background-position: top; /* Center the image */
   	background-repeat: no-repeat; /* Do not repeat the image */
-  	background-size: cover; /* Resize the background image to cover the entire container */ 	
+  	background-size: cover; /* Resize the background image to cover the entire container */ 
+	display:flex;
+	align-items:center;
 }
 
 
@@ -204,13 +206,12 @@ input[type=text]:focus {
 
 /* Add padding to container elements */
 .container {
-  padding: 30px 50px 0 0;
+  padding: 50px 50px 0 0;
   margin:0;
   max-width:400px;
 height:100%;
 color:#fff;
 float:right;
-background:linear-gradient(to right, rgba(54,146,193,0), rgba(54,146,193,1));
 background:linear-gradient(to right, rgba(37,102,135,0), rgba(37,102,135,1));
 	
 background-blend-mode: multiply;
@@ -220,6 +221,7 @@ background-blend-mode: multiply;
 	margin-bottom:0;
 	text-align:center;
 	padding:0;
+	padding:10px 0 22px;
 }
 
 .container h3 {
@@ -227,6 +229,7 @@ background-blend-mode: multiply;
 	margin-bottom:0;
 	text-align:center;
 	padding:0;
+	padding-bottom:10px;
 }
 /* Clear floats */
 .clearfix::after {
