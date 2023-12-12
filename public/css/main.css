@@ -214,6 +214,7 @@ margin:0;
 height:100%;
 color:#fff;
 float:right;
+	background:linear-gradient(to right, rgba(54,146,193,0), rgba(54,146,193,1));	
 }
 .container h2 {
 	font-size:36px;
