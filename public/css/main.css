@@ -83,8 +83,7 @@ a[href^="tel:"]:before {
   	background:#999;
   	height:450px; 
  	margin:0;
-  	background-image:
-    	linear-gradientlinear-gradient(to right, rgba(54,146,193,0), rgba(54,146,193,1)), url("../images/kate-ibragimova-bEGTsOCnHro-unsplash.jpg");
+  	background-image:linear-gradient(to right, rgba(54,146,193,0), rgba(54,146,193,1)), url("../images/kate-ibragimova-bEGTsOCnHro-unsplash.jpg");
   	background-repeat:no-repeat;
 	background-size: cover;
 	background-position: top;
