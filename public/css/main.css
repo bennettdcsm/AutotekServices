@@ -78,12 +78,19 @@ a[href^="tel:"]:before {
   background-color: #666;
   border-radius:8px;
 }
-
+.overlay {
+	background-image:linear-gradient(to right, rgba(54,146,193,0), rgba(54,146,193,1));	
+	
+}
 .hero {
-  	background: url("../images/kate-ibragimova-bEGTsOCnHro-unsplash.jpg") no-repeat top cover;
+  	background: url(../images/kate-ibragimova-bEGTsOCnHro-unsplash.jpg) top/cover;
   	height:450px; 
  	margin:0;
-  	background-image:linear-gradient(to right, rgba(54,146,193,0), rgba(54,146,193,1));	
+	display: grid;
+  place-items:right;
+ 
+	
+  	
 }
 
 
