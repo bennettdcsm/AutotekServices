@@ -80,13 +80,10 @@ a[href^="tel:"]:before {
 }
 
 .hero {
-  	background:#999;
+  	background: url("../images/kate-ibragimova-bEGTsOCnHro-unsplash.jpg") no-repeat top cover;
   	height:450px; 
  	margin:0;
-  	background-image:linear-gradient(to right, rgba(54,146,193,0), rgba(54,146,193,1)), url("../images/kate-ibragimova-bEGTsOCnHro-unsplash.jpg");
-  	background-repeat:no-repeat;
-	background-size: cover;
-	background-position: top;
+  	background-image:linear-gradient(to right, rgba(54,146,193,0), rgba(54,146,193,1));	
 }
 
 
