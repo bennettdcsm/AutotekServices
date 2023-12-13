@@ -8,12 +8,15 @@
   integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
   crossorigin="anonymous"></script>
 <script>
-$(document).ready(function(){
-  $("form").submit(function(){
-    alert("Submitted");
-  });
-});
-</script>
+    $(document).ready(function(){
+      $("form").submit(function(e){
+        e.preventDefault(); // Prevents the form from submitting in the default way
+        if (confirm("Submitted. Do you want to proceed to the thank you page?")) {
+          window.location.href = "thank-you.html"; // Redirect to the thank you page
+        }
+      });
+    });
+  </script>
 <title>Autotek Services</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
 </head>
@@ -32,7 +35,7 @@ $(document).ready(function(){
 	<!-- Start form in hero banner -->
 <div class="hero overlay">
 <div class="container">
-<form action=" ">
+  <form action="">
     <h3>Don't miss out on our</h3>
     <h2>Monthly Specials</h2>
     <input type="text" placeholder="Enter First Name" name="fname" required>
@@ -40,7 +43,7 @@ $(document).ready(function(){
     <div class="clearfix">
       <button type="submit" class="signupbtn">Sign Up for Our Newsletter</button>
     </div>
-</form>
+  </form>
 </div>
 </div>
 	<!--//end form-->
